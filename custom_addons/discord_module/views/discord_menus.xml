@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- Root menu (App) -->
+    <menuitem id="discord_menu_root" name="Discord Module"/>
+
+    <!-- First level menu -->
+    <menuitem id="discord_menu_properties"
+              name="Properties"
+              parent="discord_menu_root"/>
+
+    <!-- Action menu -->
+    <menuitem id="discord_property_menu"
+              parent="discord_menu_properties"
+              action="discord_property_action"/>
+
+</odoo>
